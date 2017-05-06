@@ -1,4 +1,4 @@
-package parser;
+package br.com.felipe.parser;
 
 import br.com.felipe.vo.Word;
 import org.apache.commons.lang.StringUtils;

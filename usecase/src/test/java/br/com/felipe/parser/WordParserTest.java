@@ -1,8 +1,7 @@
-package br.com.felipe;
+package br.com.felipe.parser;
 
 import br.com.felipe.vo.Word;
 import org.junit.Test;
-import parser.WordParser;
 
 import java.util.List;
 
