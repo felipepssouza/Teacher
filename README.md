@@ -3,11 +3,11 @@
 
 Project responsible to group words and get average of vowels of this groups
 
-TODO
-[] Class to get average of vowels per group (GroupedWords)
-[] Class responsible to print in this format ({a, o}, 6) -> 2.5 -> to represent group of words and average vowels
-[] Facade class to get those use case classes and the printer class
-[] Input class to receive the file to parse the words 
+## TODO
+- Class to get average of vowels per group (GroupedWords)
+- Class responsible to print in this format ({a, o}, 6) -> 2.5 -> to represent group of words and average vowels
+- Facade class to get those use case classes and the printer class
+- Input class to receive the file to parse the words 
 
 
 ## Teacher - How it is organized:
