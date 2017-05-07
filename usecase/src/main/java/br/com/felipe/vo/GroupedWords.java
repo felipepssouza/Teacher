@@ -10,6 +10,9 @@ public class GroupedWords {
     private List<Word> words;
     private GroupType type;
 
+    private GroupedWords(){
+        super();
+    }
 
     public static GroupedWords of(final List<Word> words, GroupType type) {
         GroupedWords groupedWords = new GroupedWords();

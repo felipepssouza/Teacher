@@ -7,6 +7,10 @@ public class Word {
 
     private String content;
 
+    private Word(){
+        super();
+    }
+
     public static Word withContent(final String content){
         Word word = new Word();
         word.content = content;

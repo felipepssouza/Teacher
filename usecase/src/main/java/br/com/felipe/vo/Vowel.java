@@ -20,6 +20,10 @@ public class Vowel {
             "u".charAt(0)
     );
 
+    private Vowel(){
+        super();
+    }
+
     public static Vowel of(Character character) {
         Vowel vowel = new Vowel();
         vowel.character = character;
