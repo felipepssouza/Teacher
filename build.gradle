@@ -69,7 +69,7 @@ allprojects {
 task codeCoverageReport(type: JacocoReport) {
     executionData fileTree(project.rootDir.absolutePath)
             .include("**/build/jacoco/*.exec")
-            .exclude("**/Application.java")
+            .exclude("config/**/Application.java")
 
     subprojects.each {
         sourceSets it.sourceSets.main
