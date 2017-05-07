@@ -1,6 +1,4 @@
-rootProject.name = 'JsonDiffer'
+rootProject.name = 'Teacher'
 include 'config'
-include 'controller'
 include 'usecase'
-include 'persistence'
 

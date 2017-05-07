@@ -13,6 +13,12 @@ public class Word {
         return word;
     }
 
+
+    @Override
+    public String toString() {
+        return content;
+    }
+
     public int size(){
         return this.content.length();
     }
