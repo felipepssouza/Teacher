@@ -1,4 +1,4 @@
-package br.com.felipe;
+package br.com.felipe.processor;
 
 import br.com.felipe.vo.GroupType;
 import br.com.felipe.vo.GroupedWords;
