@@ -1,6 +1,5 @@
 package br.com.felipe.processor;
 
-import br.com.felipe.WordGrouper;
 import br.com.felipe.vo.GroupedWords;
 import br.com.felipe.vo.Word;
 import org.junit.Before;
