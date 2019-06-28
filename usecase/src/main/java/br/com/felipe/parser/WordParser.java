@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 import static java.util.Arrays.stream;
 
 /**
+ * Parser from full text to List of Words
  * Created by felipe on 06/05/17.
  */
 public class WordParser {
