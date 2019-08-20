@@ -20,6 +20,10 @@ public class Vowel {
             "u".charAt(0)
     );
 
+    private Vowel(){
+        super();
+    }
+
     public static Vowel of(Character character) {
         Vowel vowel = new Vowel();
         vowel.character = character;
@@ -38,5 +42,20 @@ public class Vowel {
         return VALID_VOWELS.stream().anyMatch( validChar ->
                 StringUtils.equals(validChar.toString(), character.toString().toLowerCase())
         );
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Vowel vowel = (Vowel) o;
+
+        return character.equals(vowel.character);
+    }
+
+    @Override
+    public int hashCode() {
+        return character.hashCode();
     }
 }
